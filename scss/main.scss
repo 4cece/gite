@@ -6,13 +6,19 @@
 $blue:    #5c9ead !default;
 $red:     #da4167 !default;
 $cyan:    #326273 !default;
+$gray-600: rgba(92, 158, 173, 0.37);
 
 $primary:       $blue !default;
 $info:          $cyan !default;
 $danger:        $red !default;
 $dark:          $red !default;
+$secondary:     $gray-600 !default;
 
 $navbar-dark-color:  #FFFFFF;
+
+.chambre, .art{
+    background: rgba(92, 158, 173, 0.37);
+}
 
 
 // typo
@@ -24,9 +30,18 @@ $navbar-dark-color:  #FFFFFF;
 $headings-font-family: 'Courgette', cursive;
 p{
     font-family: 'Roboto';
+    color: $info;
 }
 
-.nav-link{
+figcaption{
+    font-family: 'courgette', cursive;
+    font-size: calc(1.275rem + 0.3vw);
+}
+
+.logo{
+    width: 150px;
+}
+.nav-link, .dropdown-item{
     font-family: $headings-font-family;
 }
 
