@@ -1,5 +1,41 @@
+
+
+// Colors
+
+// Variable
+$blue:    #5c9ead !default;
+$red:     #da4167 !default;
+$cyan:    #326273 !default;
+
+$primary:       $blue !default;
+$info:          $cyan !default;
+$danger:        $red !default;
+$dark:          $red !default;
+
+$navbar-dark-color:  #FFFFFF;
+
+
+// typo
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+$headings-font-family: 'Courgette', cursive;
+p{
+    font-family: 'Roboto';
+}
+
+.nav-link{
+    font-family: $headings-font-family;
+}
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+// position
 
-h1{
+.navbar-collapse{
+    flex-grow: 0;
 }
