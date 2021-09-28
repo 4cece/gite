@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-.chambre, .art {
+.chambre, .art, .tarif {
   background: rgba(92, 158, 173, 0.37); }
 
 p {
@@ -8720,6 +8720,10 @@ footer {
 .galerie {
   width: 400px;
   height: 220px;
+  margin: 10px; }
+
+.galeriec {
+  width: 200px;
   margin: 10px; }
 
 /*# sourceMappingURL=app.css.map */

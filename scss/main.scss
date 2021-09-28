@@ -16,7 +16,7 @@ $secondary:     $gray-600 !default;
 
 $navbar-dark-color:  #FFFFFF;
 
-.chambre, .art{
+.chambre, .art, .tarif{
     background: rgba(92, 158, 173, 0.37);
 }
 
@@ -82,5 +82,10 @@ footer{
 .galerie{
     width: 400px;
     height: 220px;
+    margin: 10px;
+}
+
+.galeriec{
+    width: 200px;
     margin: 10px;
 }
