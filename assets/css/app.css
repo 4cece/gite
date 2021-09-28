@@ -8726,11 +8726,8 @@ footer {
   width: 200px;
   margin: 10px; }
 
-.desc {
-  border: solid 2px #5c9ead;
-  height: 270px;
-  width: 500px;
-  right: 0%; }
+.plan {
+  background-color: rgba(92, 158, 173, 0.37); }
 
 .adresse {
   height: 450px;
