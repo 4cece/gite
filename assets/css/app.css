@@ -8738,4 +8738,21 @@ footer {
   background-color: rgba(92, 158, 173, 0.37);
   margin-bottom: 0%; }
 
+.description {
+  width: 90%;
+  z-index: -1; }
+
+.photo {
+  z-index: 2;
+  border-radius: 15px;
+  border: solid 10px #5c9ead; }
+
+.test {
+  margin-top: -10px; }
+
+.photo1 {
+  z-index: 2;
+  border-radius: 15px;
+  border: solid 10px #da4167; }
+
 /*# sourceMappingURL=app.css.map */
