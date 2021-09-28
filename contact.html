@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Locations                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="gite.html">Le gite aux anges</a></li>
+                    <li><a class="dropdown-item" href="chambre.html">La chambre d'hôtes</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact & accès</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Les bons plans</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="p-5 m-5 text-center text-primary">Contact</h1>
+
+      <!-- formulaire de contact -->
+      <form action="" class="row m-5 ">
+          <div class="col text-center">
+            <input type="text" placeholder="Nom" class="form-control m-2">
+            <input type="text" placeholder="Email"  class="form-control m-2">
+            <button type="button" class="btn btn-primary">Envoyer</button>
+          </div>
+          <textarea class="form-control col m-2" placeholder="Message, question demande de date réservation" id="floatingTextarea2" style="height: 100px"></textarea>
+      </form>
+
+      <h1 class="p-5 m-5 text-center text-primary"> Accès</h1>
+
+      <div class="d-flex justify-content-center ">
+          <p class="adresse text-center d-flex justify-content-center align-items-center ">Le gîte aux anges <br>
+            82 grande rue <br>
+            51300 Thieblemont-Farémont <br>
+            France</p>
+          <iframe class="adresse w-50" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2633.802012774779!2d4.722656915041287!3d48.6901498792714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47eb8bef77bb7053%3A0x92c7488ed0c24cfb!2s82%20Grande%20Rue%2C%2051300%20Thi%C3%A9blemont-Far%C3%A9mont!5e0!3m2!1sfr!2sfr!4v1632819723904!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <iframe  class="adresse w-50" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.086314132838!2d4.383818715041023!3d48.68471437927087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ebf91872eaa3d9%3A0xb0492cd187f1b33a!2s27%20Rue%20Royer%20Collard%2C%2051320%20Sompuis!5e0!3m2!1sfr!2sfr!4v1632820865687!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p class="adresse text-center d-flex justify-content-center align-items-center ">La chambre d'hôtes <br>
+            27 rue Royer Collard <br>
+            51320 Sompuis
+         </p>
+      </div>
+
+      <!-- footer -->
+      <footer class="row align-items-center bg-dark py-3">
+        <div class="col ">
+            <p class="text-center text-light">Le gîte aux anges <br>
+              82 grande rue 
+              51300 <br> Thieblemont-Farémont <br>
+              France</p>
+        </div>
+        <div class="col">
+            <p class="text-center text-light my-auto ">
+              Tel: 0635274060 <br>
+              frapart.estelle@gmail.com
+            </p>
+        </div>
+        <div class="col">
+            <img class="w-50 mx-auto d-block" src="./assets/img/logo/le gite aux ange.png" alt="logo">
+        </div>
+        <div class="col">
+            <p class="text-center text-light">27 rue Royer Collard <br>
+              51320 Sompuis</p>
+        </div>
+        <div class="col">
+            <p class="text-center text-light">plan du site</p>
+            <p class="text-center text-light">mention légale</p>
+            <img  class="w-25 mx-auto d-block" src="./assets/img/logo/facebook-770688_1280.png" alt="facebook-770688_1280">
+        </div>
+
+
+      </footer>
+
+</body>
+</html>

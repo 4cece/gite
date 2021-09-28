@@ -6,13 +6,15 @@
 $blue:    #5c9ead !default;
 $red:     #da4167 !default;
 $cyan:    #326273 !default;
-$gray-600: rgba(92, 158, 173, 0.37);
+$green: rgba(92, 158, 173, 0.37);
+$gray-600: rgb(92, 158, 173);
 
 $primary:       $blue !default;
 $info:          $cyan !default;
 $danger:        $red !default;
 $dark:          $red !default;
 $secondary:     $gray-600 !default;
+$success:       $green !default;
 
 $navbar-dark-color:  #FFFFFF;
 
@@ -58,7 +60,7 @@ figcaption{
 footer{
     z-index: 2;
 }
-// gite page
+// gite et chambre page
 
 #background{
     position: fixed;
@@ -88,4 +90,23 @@ footer{
 .galeriec{
     width: 200px;
     margin: 10px;
+}
+
+// Les bons plans
+
+.desc{
+border: solid 2px #5c9ead ;
+height: 270px;
+width: 500px;
+right: 0%;
+}
+
+
+// Contatct et Accès
+
+.adresse{
+    height: 450px;
+    width: 509px;
+    background-color:rgba(92, 158, 173, 0.37);
+    margin-bottom: 0%;
 }
