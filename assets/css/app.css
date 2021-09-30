@@ -8725,6 +8725,15 @@ footer {
   font-weight: bold;
   font-family: Roboto, sans-serif; }
 
+.galerie {
+  width: 400px;
+  height: 220px;
+  margin: 10px; }
+
+.galeriec {
+  width: 200px;
+  margin: 10px; }
+
 .plan {
   background-color: rgba(92, 158, 173, 0.37); }
 
