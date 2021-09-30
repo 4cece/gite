@@ -60,6 +60,20 @@ figcaption{
 footer{
     z-index: 2;
 }
+
+// Acceuil
+@media screen and (max-width: 576px){
+art1{
+    display: flex;
+    flex-wrap: wrap;
+}
+art2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+}
+
+
 // gite et chambre page
 
 #background{
@@ -102,10 +116,9 @@ footer{
 // Contatct et Accès
 
 .adresse{
-    height: 450px;
-    width: 509px;
     background-color:rgba(92, 158, 173, 0.37);
     margin-bottom: 0%;
+
 }
 
 // sac'créa et Frap'art
@@ -113,6 +126,7 @@ footer{
 .description{
     width: 90%;
     z-index: -1;
+    position: absolute;
 }
 
 .photo{
@@ -129,4 +143,16 @@ footer{
     z-index: 2;
     border-radius: 15px;
     border: solid 10px #da4167;
+}
+
+@media screen and (max-width: 764px) {
+    .description{
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .test{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        margin-bottom: 10px }
 }

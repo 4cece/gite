@@ -8700,6 +8700,14 @@ textarea.form-control-lg {
 footer {
   z-index: 2; }
 
+@media screen and (max-width: px) {
+  art1 {
+    display: flex;
+    flex-wrap: wrap; }
+
+  art2 {
+    display: flex;
+    flex-wrap: wrap-reverse; } }
 #background {
   position: fixed;
   top: 0px;
@@ -8730,14 +8738,13 @@ footer {
   background-color: rgba(92, 158, 173, 0.37); }
 
 .adresse {
-  height: 450px;
-  width: 509px;
   background-color: rgba(92, 158, 173, 0.37);
   margin-bottom: 0%; }
 
 .description {
   width: 90%;
-  z-index: -1; }
+  z-index: -1;
+  position: absolute; }
 
 .photo {
   z-index: 2;
@@ -8751,5 +8758,16 @@ footer {
   z-index: 2;
   border-radius: 15px;
   border: solid 10px #da4167; }
+
+@media screen and (max-width: 764px) {
+  .description {
+    position: relative;
+    margin-bottom: 10px; }
+
+  .test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=app.css.map */
