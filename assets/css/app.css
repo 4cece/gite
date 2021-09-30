@@ -8700,7 +8700,7 @@ textarea.form-control-lg {
 footer {
   z-index: 2; }
 
-@media screen and (max-width: px) {
+@media screen and (max-width: 576px) {
   art1 {
     display: flex;
     flex-wrap: wrap; }
@@ -8723,16 +8723,7 @@ footer {
   padding: 30px;
   text-align: center;
   font-weight: bold;
-  font-family: Arial, sans-serif; }
-
-.galerie {
-  width: 400px;
-  height: 220px;
-  margin: 10px; }
-
-.galeriec {
-  width: 200px;
-  margin: 10px; }
+  font-family: Roboto, sans-serif; }
 
 .plan {
   background-color: rgba(92, 158, 173, 0.37); }
